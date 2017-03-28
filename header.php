@@ -4,7 +4,7 @@
  *
  * Esse template contém as tags <head> e <header> até <div id="content" class="site-content">
  *
- * @package grau
+ * @package Felipe
  */
 
 ?><!DOCTYPE html>
@@ -40,7 +40,7 @@
 
 				<div class="col-xs-12">
 					<nav id="site-navigation" class="main-navigation" role="navigation">
-						<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e( 'Primary Menu', 'grau' ); ?></button>
+						<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e( 'Primary Menu', 'Felipe' ); ?></button>
 						<?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu_id' => 'primary-menu' ) ); ?>
 					</nav>
 				</div>

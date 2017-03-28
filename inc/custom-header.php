@@ -12,33 +12,33 @@
  *
  * @link https://developer.wordpress.org/themes/functionality/custom-headers/
  *
- * @package grau
+ * @package Felipe
  */
 
 /**
  * Set up the WordPress core custom header feature.
  *
- * @uses grau_header_style()
+ * @uses Felipe_header_style()
  */
-function grau_custom_header_setup() {
-	add_theme_support( 'custom-header', apply_filters( 'grau_custom_header_args', array(
+function Felipe_custom_header_setup() {
+	add_theme_support( 'custom-header', apply_filters( 'Felipe_custom_header_args', array(
 		'default-image'          => '',
 		'default-text-color'     => '000000',
 		'width'                  => 1000,
 		'height'                 => 250,
 		'flex-height'            => true,
-		'wp-head-callback'       => 'grau_header_style',
+		'wp-head-callback'       => 'Felipe_header_style',
 	) ) );
 }
-add_action( 'after_setup_theme', 'grau_custom_header_setup' );
+add_action( 'after_setup_theme', 'Felipe_custom_header_setup' );
 
-if ( ! function_exists( 'grau_header_style' ) ) :
+if ( ! function_exists( 'Felipe_header_style' ) ) :
 /**
  * Styles the header image and text displayed on the blog.
  *
- * @see grau_custom_header_setup().
+ * @see Felipe_custom_header_setup().
  */
-function grau_header_style() {
+function Felipe_header_style() {
 	$header_text_color = get_header_textcolor();
 
 	/*

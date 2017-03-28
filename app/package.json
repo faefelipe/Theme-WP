@@ -1,9 +1,9 @@
 {
-    "name": "grau",
+    "name": "Felipe",
     "version": "0.1.0",
     "description": "",
     "main": "gulpfile.js",
-    "author": "Grau Dev Team",
+    "author": "Felipe Dev Team",
     "license": "MIT",
     "devDependencies": {
         "browser-sync": "^2.11.2",

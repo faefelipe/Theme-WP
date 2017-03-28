@@ -1,5 +1,5 @@
 // config variables
-var grauConfig = {
+var FelipeConfig = {
   localPath: 'laurentia_loja',
   scriptsAssets: [
     'scripts/main.js'
@@ -38,7 +38,7 @@ gulp.task('stylus', function () {
 
 // Scripts task + concat + uglify
 gulp.task('scripts', function () {
-	gulp.src(grauConfig.scriptsAssets)
+	gulp.src(FelipeConfig.scriptsAssets)
 	.pipe(plumber({
         errorHandler: function (error) {
         console.log(error.message);
@@ -77,7 +77,7 @@ gulp.task('watch', function() {
 // Browser-sync server
 gulp.task('browser-sync', function() {
   browserSync.init({
-      proxy: "http://localhost/" + grauConfig.localPath
+      proxy: "http://localhost/" + FelipeConfig.localPath
   });
 });
 

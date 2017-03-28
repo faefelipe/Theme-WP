@@ -1,4 +1,4 @@
-##Grau WordPress tema
+##WordPress tema
 *Tema em desenvolvimento*
 
 ####Lista de Dependecias
@@ -12,5 +12,3 @@
 * Criar Classes de ajuda para CSS
 * Adicionar mais...
 
-
-**Desenvolvido pelo Grau Dev Team**

@@ -9,7 +9,7 @@
  *
  * @link https://codex.wordpress.org/Template_Hierarchy
  *
- * @package grau
+ * @package Felipe
  */
 
 get_header(); ?>

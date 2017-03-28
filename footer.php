@@ -4,7 +4,7 @@
  *
  * Esse template contém a tag <footer> e fecha a tag <div id="content" class="site-content">
  *
- * @package grau
+ * @package Felipe
  */
 
 ?>
@@ -17,7 +17,7 @@
 
 				<div class="col-xs-12">
 					<div class="site-info">
-						<?php printf( esc_html__( 'Feito com %1$s por %2$s.', 'grau' ), 'Grau', 'Grau Dev Team' ); ?>
+						<?php printf( esc_html__( 'Feito com %1$s por %2$s.', 'Felipe' ), 'Felipe', 'Felipe Dev Team' ); ?>
 					</div>
 				</div>
 
